@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module3-Lesson5</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header__menu">
+                <img class="header__logo" src='img/logo.svg' alt="Логотип">
+                <nav class="header__nav">
+                    <li class="header__item header__item_tel-icon" hidden> <a href="tel:89625561234"></a>
+                        <img src="img/phone.svg" alt="Телефон"></li>
+                    <li class="header__item header__item_tel"> <a href="tel:89625561234">+7 (962) 556 - 1234</a></li>
+                    <li class="header__item header__item_call"><a href="#">Перезвоните мне</a></li>
+                </nav>
+            </div>
+            <div class="header__description">
+                <h1 class="header__title">
+                    Заголовок c уникальным торговым предложение по системе 4U
+                </h1>
+                <p class="header__text">
+                    Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+                    сгенерировать
+                    несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.
+                </p>
+                <button class="header__button">Подробнее</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="advantages">
+            <div class="advantages-container">
+                <h2 class="advantages__title">
+                    Уникальный заголовок для преимущества компании
+                </h2>
+                <h3 class="advantages__subtitle"><span>О нас</span></h3>
+                <p class="advantages__text">
+                    Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
+                    менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
+                </p>
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">1</p>
+                        <p class="advantages__item-text">Первое целевое преимущество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">2</p>
+                        <p class="advantages__item-text">Второе целевое преимущество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">3</p>
+                        <p class="advantages__item-text">Третье целевое преимущество</p>
+                    </li>
+                    <li class="advantages__item">
+                        <p class="advantages__item-number">4</p>
+                        <p class="advantages__item-text">Четвертое целевое преимущество</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="contacts-container">
+                <h1 class="contacts__title">Остались вопросы?</h1>
+                <p class="contacts__text">Оставьте номер телефона и мы перезвоним вам</p>
+                <form class="contacts__form" id="form_contacts" method="POST">
+                    <ul class="contacts__list">
+                        <li class="contacts__item">
+                            <label for="name">
+                                <input class="contacts__item_name" type="text" id="name" name="name"
+                                    placeholder="Ваше имя" required>
+                            </label>
+                        </li>
+                        <li class="contacts__item">
+                            <label for="tel">
+                                <input class="contacts__item_tel" type="tel" id="tel" name="tel" placeholder="Телефон"
+                                    required>
+                            </label>
+                        </li>
+                        <li class="contacts__item">
+                            <label for="email">
+                                <input class="contacts__item_email" type="email" id="email" name="email"
+                                    placeholder="Email" required>
+                            </label>
+                        </li>
+                    </ul>
+                    <button class="contacts__button">Позвоните мне</button>
+                    <p class="contacts__agreement">Я даю своё <u class="contacts__agreement-word">согласие</u> на
+                        обработку моих персональных данных.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <nav class="footer__menu">
+                <li class="footer__item footer__item_logo">
+                    <img class="footer__logo" src='img/logo.svg' alt="Логотип">
+                    <p class="footer__copyright">© 2022 XXXcompany.<br>Все права защищены.</p>
+                </li>
+                <li class="footer__item footer__item_text">
+                    <p class="footer__text">Сделано в Ивановым Иваном</p>
+                </li>
+                <li class="footer__item footer__item_tel">
+                    <p class="footer__tel-icon" hidden><a href="tel:89625561234"></a>
+                        <img src="img/phone.svg" alt="Телефон"></p>
+                    <p class="footer__tel"><a href="tel:89625561234">+7 (962) 556 - 1234</a></p>
+                    <p class="footer__call"><a href="#">Перезвоните мне</a></p>
+                </li>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
