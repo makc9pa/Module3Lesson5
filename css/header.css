@@ -6,7 +6,7 @@
     background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
         url(../img/background-home-screen.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 0 auto;
     padding-left: 200px;
     padding-right: 200px;
@@ -22,6 +22,8 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
     align-items: center;
 }
 
@@ -143,7 +145,7 @@
     }
 
     .header__item_tel-icon {
-        display: list-item;
+        display: block;
     }
 
     .header__title {

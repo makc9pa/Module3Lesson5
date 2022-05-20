@@ -1,0 +1,21 @@
+@media (max-width: 320px) {
+
+    .advantages__item-prev,
+    .advantages__item-next {
+        cursor: pointer;
+        width: 38px;
+        padding: 4px;
+        font-size: 14px;
+        transition: 0.6s ease;
+        background: white;
+        box-shadow: 4px 4px 25px rgba(0, 210, 248, 0.05);
+        border-radius: 50px;
+        display: block;
+    }
+
+    .advantages__item-prev:hover,
+    .advantages__item-next:hover {
+        background-color: rgba(75, 77, 98, 0.72);
+        color: white;
+    }
+}

@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <script defer src="js/script.js"></script>
 </head>
 
 <body>
@@ -49,27 +50,27 @@
                     Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более
                     менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.
                 </p>
-                <div class="swiper myswiper">
-                    <div class="advantages__list swiper-wrapper">
-                        <div class="advantages__item swiper-slide">
-                            <p class="advantages__item-number">1</p>
-                            <p class="advantages__item-text">Первое целевое преимущество</p>
-                        </div>
-                        <div class="advantages__item swiper-slide">
-                            <p class="advantages__item-number">2</p>
-                            <p class="advantages__item-text">Второе целевое преимущество</p>
-                        </div>
-                        <div class="advantages__item swiper-slide">
-                            <p class="advantages__item-number">3</p>
-                            <p class="advantages__item-text">Третье целевое преимущество</p>
-                        </div>
-                        <div class="advantages__item swiper-slide">
-                            <p class="advantages__item-number">4</p>
-                            <p class="advantages__item-text">Четвертое целевое преимущество</p>
-                        </div>
+                <div class="advantages__list">
+                    <div class="advantages__item-prev" onclick="plusSlides(-1)" hidden>&#10094</div>
+                    <div class="advantages__item mySlides">
+                        <p class="advantages__item-number">1</p>
+                        <p class="advantages__item-text">Первое целевое преимущество</p>
                     </div>
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="advantages__item mySlides">
+                        <p class="advantages__item-number">2</p>
+                        <p class="advantages__item-text">Второе целевое преимущество</p>
+                    </div>
+                    <div class="advantages__item mySlides">
+                        <p class="advantages__item-number">3</p>
+                        <p class="advantages__item-text">Третье целевое преимущество</p>
+                    </div>
+                    <div class="advantages__item mySlides">
+                        <p class="advantages__item-number">4</p>
+                        <p class="advantages__item-text">Четвертое целевое преимущество</p>
+                    </div>
+                    <div class="advantages__item-next" onclick="plusSlides(1)" hidden>&#10095</div>
+                    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a> -->
                 </div>
             </div>
         </section>

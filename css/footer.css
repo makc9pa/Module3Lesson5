@@ -125,6 +125,6 @@
     }
 
     .footer__tel-icon {
-        display: list-item;
+        display: block;
     }
 }

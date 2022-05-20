@@ -93,6 +93,13 @@ input[type="email"] {
     text-underline-offset: 6px;
 }
 
+@media (max-width: 1280px) {
+    .contacts__title {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 1024px) {
 
     .contacts-container {
