@@ -23,6 +23,8 @@
     font-size: 35px;
     line-height: 41px;
     margin-bottom: 17px;
+    padding-left: 423px;
+    padding-right: 448px;
 }
 
 .contacts__text {
@@ -74,18 +76,21 @@ input[type="email"] {
     line-height: 23px;
     border: none;
     border-radius: 50px;
-    padding: 12px 48px;
+    padding: 11px 38px;
     box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
     margin-bottom: 50px;
 }
 
 .contacts__agreement {
     font-size: 20px;
-    line-height: 23px;
+    line-height: 28px;
 }
 
 .contacts__agreement-word {
     color: #4A76A8;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
 }
 
 @media (max-width: 1024px) {

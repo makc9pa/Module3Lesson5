@@ -12,7 +12,7 @@
     padding-right: 200px;
     padding-bottom: 120px;
     display: flex;
-    gap: 120px;
+    gap: 118px;
     flex-wrap: wrap;
     flex-direction: column;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -22,12 +22,14 @@
     display: flex;
     justify-content: space-between;
     padding-top: 40px;
+    align-items: center;
 }
 
 .header__nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -36,10 +38,15 @@
     line-height: 28px;
 }
 
+.header__item_tel {
+    margin-bottom: 3px;
+}
+
 .header__item_call {
     font-size: 16px;
     line-height: 19px;
     text-decoration: underline;
+    text-underline-offset: 5px;
 }
 
 .header__description {
